@@ -1,5 +1,6 @@
 body
 {
+    background: rgb(50, 50, 50);
     text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(49, 49, 49);
@@ -12,18 +13,25 @@ body
     background: blueviolet;
     color: whitesmoke;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0.5em 0 0.5em 2em;
     width: 70%;
     -webkit-box-shadow: 13px 3px 2px -3px rgba(0,0,0,1);
     -moz-box-shadow: 13px 3px 2px -3px rgba(0,0,0,1);
     box-shadow: 13px 3px 2px -3px rgba(0,0,0,1);
+}
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+    padding-left: 0;
+    margin: auto;
 }
 #container
 {
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid rgb(49, 49, 49);
+    border: 1px solid rgb(227, 227, 227);
     margin: 0 auto;
     -webkit-box-shadow: 13px 11px 2px -3px rgba(0,0,0,1);
     -moz-box-shadow: 13px 11px 2px -3px rgba(0,0,0,1);
@@ -36,4 +44,5 @@ body
 #post
 {
     padding: 1em;
+    background-color: aliceblue;
 }
